@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>&#128272; Gestor de contraseñas encriptado</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="Contenidoprincipal">
+    <div class="container">
+
+      <h1><img src="logo-encriptado.png" width="50" height="50" style="filter: invert(100%);"> MI LUGAR SEGURO</h1>
+      <div id="passwordsContainer">
+        <!-- Lugar para los datos y contraseñas que se agreguen -->
+      </div>
+      <div id="addPasswordForm">
+        <h4>Ingresa los siguientes datos:</h4>
+        <p style="font-size: 12px;"> &#9888; Escribe solo texto simple (solo letras minúsculas y sin espacios)
+        </p>
+        <select id="websiteInput" required>
+          <option value="Sin definir">Elige una red social</option>
+          <option value="E-mail">Correo electrónico</option>
+          <option value="Facebook">Facebook</option>
+          <option value="Instagram">Instagram</option>
+          <option value="Discord">Discord</option>
+        </select><br>
+        <input type="text" id="usernameInput" placeholder="Nombre de usuario" required>
+        <input type="password" id="passwordInput" placeholder="Contraseña" required>
+        <div class="contenedor-cifrados">
+          <p class="cifrados" id="password-convertido"></p>
+          <p class="cifrados" id="password-desencriptado"></p>
+        </div>
+
+        <div class="botones">
+          <button style="font-size: 15px;" id=" cifrar" type="button" onclick="cifrado()">
+            <ion-icon name="lock"></ion-icon>
+            Cifrar
+          </button>
+          <button style="font-size: 15px;" id="descifrar" type="button" onclick="descifrado()">
+            <ion-icon name="key"></ion-icon>
+            Descifrar
+          </button>
+          <button style="font-size: 15px;" id="agregar" type="submit" onclick="AgregarDatos()">
+            <ion-icon name="add-circle"></ion-icon>Agregar
+          </button>
+        </div>
+        <p style="text-align: center; font-size: 10px"> &copy;Elaborado por el Grupo
+          Imparables</p>
+      </div>
+    </div>
+  </div>
+
+  <script src=" script.js">
+  </script>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+
+</html>

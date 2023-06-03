@@ -1,0 +1,134 @@
+body,
+html {
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  font-family: "tahoma";
+  color: rgb(255, 255, 255);
+  background-image: url(https://img.freepik.com/foto-gratis/conexiones-red_1048-7667.jpg?w=740&t=st=1685714632~exp=1685715232~hmac=0c44a0700dc90f4a2d9547ef4710e0bd754d9465b6a4d800384223fa44b6a325);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Contenidoprincipal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 450px;
+  width: 80%;
+  padding: 20px;
+  background-color: #1526a8c7;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+h1 {
+  margin: 0%;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+#addPasswordForm h4 {
+  margin-top: 0px;
+}
+
+#websiteInput {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.cifrados {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #eaeaea;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+}
+
+.contenedor-cifrados {
+  display: flex;
+  flex-direction: row;
+  /* Alinea los elementos en una fila horizontal */
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  height: 40px;
+  width: 100px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#passwordsContainer {
+  margin-top: 25px;
+}
+
+.passwordEntry {
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgb(77, 77, 77);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.passwordEntry span {
+  font-weight: bold;
+}
+
+.passwordEntry button {
+  margin-left: 10px;
+  background-color: #f44336;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+}
