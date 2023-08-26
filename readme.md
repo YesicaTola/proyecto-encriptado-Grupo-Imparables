@@ -1,6 +1,6 @@
 ### Gestor de Contraseñas Encriptado
 
-Este es un proyecto de equipo en el que se creará una página web utilizando HTML, Java y CSS. El objetivo de la página es permitir al usuario cifrar y descifrar información utilizando el método de encriptación cifrado de Vigenère, indicando un desplazamiento específico de caracteres. El programa está diseñado para cifrar contraseñas de diferentes plataformas como correo electrónico, Facebook, Instagram y Discord.
+Este es un proyecto de equipo en el que se creará una página web utilizando HTML, Javascript y CSS. El objetivo de la página es permitir al usuario cifrar y descifrar información utilizando el método de encriptación cifrado de Vigenère, indicando un desplazamiento específico de caracteres. El programa está diseñado para cifrar contraseñas de diferentes plataformas como correo electrónico, Facebook, Instagram y Discord.
 
 ### Situaciones de Uso
 El gestor de contraseñas encriptado puede ser útil en diversas situaciones de la vida real, algunas de las cuales podrían incluir:
@@ -22,7 +22,7 @@ Aquí se presenta el código utilizado para desarrollar el proyecto:
 ### HTML
 El código HTML define la estructura de la página web y proporciona elementos interactivos como botones y campos de entrada.
 
-### Java
+### Javascript
 El código Java contiene las funciones y lógica necesarias para agregar contraseñas, cifrar y descifrar la información utilizando el método de cifrado Vigenère.
 
 ### CSS
